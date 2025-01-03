@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Best DSmarket", ".gg/SxRdTm8KZq", "Let us join markets 4 you"];
-const statusTypes = [ 'online', 'online'];
+const statusMessages = ["Best DSmarket", ".gg/SxRdTm8KZq", "Join the best markets ever!", ".gg/SxRdTm8KZq"];
+const statusTypes = [ 'online', 'online', 'online', 'online'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
